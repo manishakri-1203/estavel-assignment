@@ -1,0 +1,38 @@
+.navigation-container{
+    width: 360px;
+    padding-top: 20px;
+    background-color: antiquewhite;
+}
+
+.products-category{
+    display: flex;
+    align-items: center;
+}
+
+.products-category-heading{
+    font-size: 20px;
+}
+
+.show-navigation{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hide-navigation{
+    display: none;
+}
+
+.products-category-item{
+    list-style-type: none;
+    font-size: 16px;
+    margin-bottom: 12px;
+    margin-left: 0;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(26, 23, 155);
+    font-size: 18px;
+    font-weight: 600;
+}

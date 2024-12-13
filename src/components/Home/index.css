@@ -1,0 +1,88 @@
+.home-container{
+    display: flex;
+    background-color: rgb(78, 114, 101);
+    
+}
+
+.content-section{
+    margin-left: 16px;
+}
+
+.products-container{
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 768px){
+    .products-container{
+        margin-top: 48px;
+    }
+}
+
+.home-category-heading{
+    font-size: 18px;
+    color: rgb(193, 181, 51);
+}
+
+@media screen and (min-width: 768px){
+    .home-category-heading{
+        font-size: 28px;
+    }
+}
+
+.stone-pedia-exclusive-images{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-container{
+    margin-right: 24px;
+}
+.image{
+    width: 120px;
+}
+
+@media screen and (min-width: 768px){
+    .image{
+        width: 320px;
+    }
+}
+
+.image-name{
+    color: azure;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+@media screen and (min-width: 768px){
+    .image-name{
+        font-size: 22px;
+    }
+}
+
+.best-selling-products-images{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.our-premium-stones-images{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.why-stone-pedia-heading{
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(193, 181, 51);
+}
+
+.description{
+    font-size: 20px;
+    font-family: "Roboto";
+    color: azure;
+    line-height: 1.8;
+}
